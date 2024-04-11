@@ -1,0 +1,40 @@
+{
+	"projects": [
+		{
+			"image": "/onyx.jfif",
+			"heading": "Onyx",
+			"description": "Pseudonymous social forum for college students",
+			"githubLink": "https://github.com/Chirayu31/onyx",
+			"livePreviewLink": "https://onyx-31.vercel.com",
+			"color1": "#000000",
+			"color2": "#f5f5f5"
+		},
+		{
+			"image": "/pencil.jfif",
+			"heading": "Pencil",
+			"description": "Collaborative whiteboarding tool",
+			"githubLink": "https://github.com/Chirayu31/pencil",
+			"livePreviewLink": "https://twitter.com/i/status/1749490338702475575",
+			"color1": "#f5f5f5",
+			"color2": "#f5f5f5"
+		},
+		{
+			"image": "/zen.jfif",
+			"heading": "Zen",
+			"description": "Project Management and Collaboration Tool",
+			"githubLink": "https://github.com/Chirayu31/zen",
+			"livePreviewLink": "https://zen-lilac.vercel.app/",
+			"color1": "#f5f5f5",
+			"color2": "#f5f5f5"
+		},
+		{
+			"image": "/toytitans.jfif",
+			"heading": "Toy Titans",
+			"description": "Dummy Ecommerce application for action figure",
+			"githubLink": "https://github.com/Chirayu31/toy-titans",
+			"livePreviewLink": "https://toy-titans.vercel.app/",
+			"color1": "#f5f5f5",
+			"color2": "#f5f5f5"
+		}
+	]
+}
