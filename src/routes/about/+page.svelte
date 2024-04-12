@@ -3,11 +3,7 @@
 		aboutMe: `let me introduce myself once again, my name is chirayu  - a full stack developer and Computer Science engineering student. I'm currently an Associate SDE Intern at Carwale, and also the GDSC Web Development Lead at IPS Academy.`,
 		imageSrc: '/me.png',
 		imageAlt: 'its me',
-		degree: `I've been passionate about coding since the 6th grade, and in my free time, you can find me gaming or working on personal projects. My love for software development runs deep, and I'm always eager to learn new skills and technologies.
-
-		As a full stack dev, I enjoy the entire breadth of the development process, from architecting backend systems to crafting sleek user interfaces. I'm driven by the challenge of solving complex problems and bringing innovative ideas to life through code.
-
-		Feel free to connect with me to discuss all things tech, gaming, or anything else that piques your interest!
+		degree: `I've been passionate about coding since the 6th grade, and in my free time, you can find me gaming or working on personal projects. As a full stack dev, I enjoy the entire breadth of the development process, from architecting backend systems to crafting sleek user interfaces.Feel free to connect with me to discuss all things tech, gaming, or anything else that piques your interest!
 		`,
 		workExperience: [
 			{
