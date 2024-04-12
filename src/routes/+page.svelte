@@ -56,12 +56,14 @@
 			class="max-w-[350px] sm:max-w-[400px] md:max-w-[500px] lg:max-w-[700px] flex flex-col mt-5 gap-6"
 		>
 			{#each data.posts as article}
-				<ArticleCard
-					heading={article.title}
-					subheading={article.subtitle}
-					image={article.image}
-					slug={article.slug}
-				/>
+				<div>
+					<ArticleCard
+						heading={article.title}
+						subheading={article.subtitle}
+						image={article.image}
+						slug={article.slug}
+					/>
+				</div>
 			{/each}
 		</div>
 	</section>
@@ -79,6 +81,7 @@
 					githubLink={project.githubLink}
 					livePreviewLink={project?.livePreviewLink}
 					isEven={index % 2 === 0}
+					image={project.image}
 				/>
 			{/each}
 		</div>

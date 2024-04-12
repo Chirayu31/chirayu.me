@@ -16,6 +16,7 @@
 				githubLink={project.githubLink}
 				livePreviewLink={project?.livePreviewLink}
 				isEven={index % 2 === 0}
+				image={project.image}
 			/>
 		{/each}
 	</div>

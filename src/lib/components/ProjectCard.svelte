@@ -4,6 +4,7 @@
 	export let githubLink: string;
 	export let livePreviewLink: string;
 	export let isEven: boolean;
+	export let image: string;
 
 	const getRandomColor = () => {
 		const letters = '0123456789ABCDEF';
@@ -27,10 +28,7 @@
 		class={` w-72 lg:w-80 bg-[#FCDCAD] py-4 rounded-xl cursor-pointer hover:scale-[1.005] ${isEven ? 'rotate-2' : '-rotate-2'} hover:rotate-0 transition-transform duration-100 ease-in-out border border-[#fec570]`}
 	>
 		<div class="flex items-center gap-4 mx-10">
-			<div
-				style="background: linear-gradient(180deg, {gradientColor1}, {gradientColor2})"
-				class="w-12 h-12 rounded-full"
-			></div>
+			<img src={image} alt={title} class="w-12 h-12 rounded-full" />
 			<h2 class="text-3xl font-medium">{title.toLowerCase()}</h2>
 		</div>
 
