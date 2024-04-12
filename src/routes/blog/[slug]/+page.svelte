@@ -4,8 +4,12 @@
 
 <svelte:head>
 	<title>{data.meta.title}</title>
+	<meta name="description" content={data.meta.subtitle} />
 	<meta property="og:type" content="article" />
 	<meta property="og:title" content={data.meta.title} />
+	<meta property="og:description" content={data.meta.subtitle} />
+	<meta property="og:image" content={data.meta.image} />
+	<meta property="og:url" content={data.meta.url} />
 </svelte:head>
 
 <article class="max-w-2xl mx-auto px-4 py-8">

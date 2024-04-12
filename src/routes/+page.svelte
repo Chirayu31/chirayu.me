@@ -7,6 +7,20 @@
 	export let data;
 </script>
 
+<svelte:head>
+	<title>chirayu.me</title>
+	<meta
+		name="description"
+		content="I'm Chirayu Pancholi, and I love building things. Explore my latest articles and projects to see what I've been working on."
+	/>
+	<meta
+		name="keywords"
+		content="chirayu, chirayu pancholi, full stack developer, web development, software engineering"
+	/>
+	<meta name="author" content="Chirayu Pancholi" />
+	<meta name="viewport" content="width=device-width, initial-scale=1.0" />
+</svelte:head>
+
 <main class="mt-20 mx-5 sm:mx-10 md:mx-28 lg:mx-40 mb-10">
 	<div class="flex items-start">
 		<div
