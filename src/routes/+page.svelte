@@ -88,7 +88,7 @@
 		<h2 class="font-medium text-xl">latest projects</h2>
 
 		<div
-			class="max-w-[350px] sm:max-w-[400px] md:max-w-[500px] lg:max-w-[700px] mt-10 grid grid-cols-1 md:grid-cols-2 gap-12"
+			class="max-w-[350px] sm:max-w-[400px] md:max-w-[500px] lg:max-w-[700px] mt-10 grid grid-cols-1 max-sm:justify-items-center md:grid-cols-2 gap-12"
 		>
 			{#each projects.slice(0, 2) as project, index}
 				<ProjectCard

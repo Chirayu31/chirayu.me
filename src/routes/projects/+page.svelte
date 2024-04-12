@@ -7,7 +7,7 @@
 	<h1 class="text-4xl font-medium">some projects i've built</h1>
 
 	<div
-		class="max-w-[350px] sm:max-w-full md:max-w-[600px] lg:max-w-[700px] mt-10 grid grid-cols-1 sm:grid-cols-2 gap-12"
+		class="max-w-[350px] sm:max-w-full md:max-w-[600px] lg:max-w-[700px] mt-10 grid grid-cols-1 max-sm:justify-items-center sm:grid-cols-2 gap-12"
 	>
 		{#each projects as project, index}
 			<ProjectCard
