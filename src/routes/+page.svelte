@@ -9,7 +9,9 @@
 
 <main class="mt-20 mx-5 sm:mx-10 md:mx-28 lg:mx-40 mb-10">
 	<div class="flex items-start">
-		<img src="/tulip.png" alt="" class="w-8 h-8 sm:w-14 sm:h-14 object-contain" />
+		<div
+			class="w-8 h-8 sm:w-10 sm:h-10 bg-gradient-to-b from-yellow-300 to-purple-300 animate-pulse"
+		></div>
 		<div class="flex flex-col gap-2 ml-2">
 			<h1 class="text-2xl sm:text-3xl md:text-4xl font-medium">hi, welcome to my little corner</h1>
 
