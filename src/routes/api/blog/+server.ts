@@ -27,7 +27,6 @@ async function getPosts() {
 export async function GET(request: Request) {
 	const { searchParams } = new URL(request.url);
 	const recentPostsFlag = searchParams.get('recentPosts');
-
 	let posts: Post[];
 
 	if (recentPostsFlag === 'true') {
@@ -44,5 +43,5 @@ function getRecentPosts(posts: Post[]): Post[] {
 		(first, second) => new Date(second.date).getTime() - new Date(first.date).getTime()
 	);
 
-	return sortedPosts.slice(0, 3);
+	return sortedPosts.slice(0, 2);
 }
