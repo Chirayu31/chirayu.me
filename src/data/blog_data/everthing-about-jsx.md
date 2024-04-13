@@ -6,7 +6,6 @@ published: true
 image: 'https://images.unsplash.com/photo-1587226513115-f1e3439f1a35?ixlib=rb-4.0.3&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=1192&q=80'
 categories:
   - coding
-  - latest
 ---
 
 **_One of the core concepts of React._**
