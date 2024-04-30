@@ -83,3 +83,70 @@ Importantly, under EIP-1559, the base fee is burned rather than being collected 
 In addition to the base fee, users also set a "max fee" when sending transactions. The max fee represents the maximum amount a user is willing to pay for their transaction to be included in a block. However, only the base fee is used for execution, with any excess returned to the sender.
 
 For miners, the primary incentive for including transactions in blocks is now the "miner tip." This tip represents the additional payment a miner receives for processing a transaction beyond the base fee. Despite the burning of the base fee, miners are still incentivized to include transactions in blocks due to the potential for earning tips.
+
+## **Accounts in Ethereum**
+
+In Ethereum, there are two main types of accounts: Externally Owned Accounts (EOAs) and Contract Accounts.
+
+**Externally Owned Accounts (EOAs)**
+
+These are like your personal wallets in Ethereum. Just like in Bitcoin, you have a private key and a public address. But in Ethereum, the address is a long string of numbers and letters. This address is where you keep your Ether, Ethereum's currency.
+
+What's cool about EOAs is that they have a balance, just like your bank account. Ethereum keeps track of how much Ether each address has. Also, each EOA has something called a "nonce," which is like a transaction counter. It helps prevent someone from sending the same transaction multiple times.
+
+**Contract Accounts**
+
+Now, this is where Ethereum gets really interesting! Contract accounts are like little computer programs running on the Ethereum network. These programs are called "Smart Contracts."
+
+Smart Contracts are written in special languages like Solidity or Vyper. Once you write a Smart Contract, you deploy it to the Ethereum network. It gets its own address and balance just like an EOA, but you can't control it with a private key like your wallet.
+
+Instead, EOAs interact with Smart Contracts by sending them transactions. These transactions can trigger actions or functions inside the Smart Contract. And here's the cool part: Smart Contracts can also talk to each other!
+
+Once a Smart Contract is deployed, its code can't be changed. But you can still update the data it stores through transactions.
+
+## JSON RPCs
+
+Ethereum, the global decentralized computer, operates across thousands of nodes worldwide. But how do we interact with this distributed system? The answer lies in JSON-RPC, a vital communication protocol bridging the gap between Ethereum applications (dApps) and the Ethereum network.
+
+**What We're Building**
+
+Imagine JSON-RPC as the connection between any dApp and an Ethereum node. Whether you're using or building a dApp, JSON-RPC acts as the conduit to access Ethereum's vast capabilities.
+
+**Understanding Ethereum Clients**
+
+To engage with Ethereum, you need to run an Ethereum client. These clients, like Geth or Nethermind, serve as gateways to the Ethereum network. Each client implements JSON-RPC, offering methods like **`eth_getBalance`** or **`eth_blockNumber`** to query Ethereum's data.
+
+**Exploring JSON-RPC**
+
+JSON-RPC, a remote procedure call protocol, simplifies communication with Ethereum nodes. It operates similarly to REST APIs but exclusively uses JSON for data transmission. Essentially, JSON-RPC allows us to request data from an Ethereum node and receive a response in JSON format.
+
+**API Standards: REST vs. JSON-RPC**
+
+Comparing REST and JSON-RPC, both facilitate client-server communication but with different syntaxes. While REST is widespread for CRUD operations, JSON-RPC streamlines remote method calls to Ethereum nodes, enabling seamless interaction with the blockchain.
+
+**Understanding JSON-RPC Request and Response**
+
+A JSON-RPC request comprises the JSON-RPC version, method to execute, and optional parameters. Conversely, a JSON-RPC response includes the JSON-RPC version, the method result, and the request ID. These structures facilitate smooth data exchange between clients and servers.
+
+## **Introduction to Ethereum Transactions**
+
+In Ethereum, transactions are like commands that make things happen. They're the tools people use to change stuff on the Ethereum network.
+
+**What Are Transactions?**
+
+Think of transactions as actions you take on Ethereum. For example, when you send Ether (the cryptocurrency of Ethereum) from your wallet to someone else's, that's a transaction. It's like giving money to someone, but it happens digitally on the Ethereum network.
+
+**How Do Transactions Work?**
+
+Transactions are grouped together into blocks, kind of like putting a bunch of actions into one big package. These blocks are then added to the Ethereum blockchain, which is like a giant ledger that keeps track of all transactions and changes on the network.
+
+**Different Types of Transactions**
+
+There are two main types of transactions in Ethereum:
+
+1. **Creating Contracts:** Sometimes, people want to create smart contracts, which are like self-executing contracts with specific rules. To do this, they send a special type of transaction that tells Ethereum to create a new smart contract.
+2. **Regular Transactions:** These are transactions where you send Ether to someone else or interact with existing smart contracts. It's like sending money or doing something specific, like playing a game or buying a digital collectible.
+
+**How Transactions Are Made**
+
+When you want to make a transaction, you need to tell the Ethereum network what you want to do and sign it with your private key to prove it's really you. This signed message is then sent to the network, where it's verified and added to the blockchain.
